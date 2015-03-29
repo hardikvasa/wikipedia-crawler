@@ -235,19 +235,6 @@ def web_crawl():
                     #file.write(pure_introduction + "\n\n")      #write the introduction of that page
                     #file.close()                            #Close the file
                     
-                    
-                    #db = MySQLdb.connect(
-                    #host = 'localhost',
-                    #user = 'vir12870_hnvasa',
-                    #passwd = 'standrose@123',
-                    #db = 'vir12870_cleoria'
-                    #)
-                    #cursor = db.cursor()
-                    
-                    #cursor.execute ("""INSERT IGNORE INTO `database` (title, introduction) VALUES (%s, %s)""", (title, pure_introduction))
-                    
-                    #db.commit()
-                    #db.close()
     
                     #Remove duplicated from to_crawl
                     n = 1
