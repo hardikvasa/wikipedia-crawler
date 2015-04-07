@@ -1,5 +1,5 @@
 # wikipedia-crawler
-This is a program to crawl Wikipedia using breath-first method and extract information from all the pages.
+This is a program to crawl entire Wikipedia using breath-first method and extract information from all the pages.
 
 ## Summary
 This is a Python program to crawl wikipedia pages and extract relevant inforation from the pages. It crawls in breath-first fashion and stores all the links that it has to crawl thus slowly covering all of the wikipedia. The program can be edited to extract customized information according to one's choice. MySQLdb library is then used to write the information into a MySQL table for further use. 
