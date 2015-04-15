@@ -1,4 +1,5 @@
 #Wikipedia Crawler v3 (inserting results into MySQL)
+# @author: Hardik Vasa
 
 #Import Libraries
 import time     #For Delay
