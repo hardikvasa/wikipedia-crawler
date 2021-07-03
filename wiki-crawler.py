@@ -27,9 +27,9 @@ def download_page(url):
 
 #Extract the title tag
 def extract_title(page):
-    start_title = page.find("<span dir")
+    start_title = page.find("<title")
     end_start_title = page.find(">",start_title+1)
-    stop_title = page.find("</span>", end_start_title + 1)
+    stop_title = page.find("</title>", end_start_title + 1)
     title = page[end_start_title + 1 : stop_title]
     return title
 
